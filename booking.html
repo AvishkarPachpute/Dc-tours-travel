@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Tour and Travel Agency - Booking</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <header>
+        <h1>DC Tour & Travels</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <!-- <li><a href="about.html">About</a></li> -->
+            <li><a href="packages.html">Tour Packages</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="booking.html">Booking</a></li>
+        </ul>
+    </nav>
+    <main id="main-content">
+        <div class="container">
+            <h2>Booking</h2>
+            <form class="booking-form" action="submit_booking.php" method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+
+                <label for="drop">Drop Location:</label>
+                <input type="text" id="drop" name="drop" required>
+
+                <label for="car">Select Car:</label>
+                <select id="car" name="car">
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="luxury">Luxury</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tour & Travel Agency</p>
+    </footer>
+</body>
+</html>
