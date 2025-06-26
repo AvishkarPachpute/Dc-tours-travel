@@ -1,0 +1,211 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color:#F7AD45;
+    line-height: 1.6;
+}
+
+header {
+    background-color:#BB3E00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #A2B9A7;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #050400;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #dab026;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling specific to each page */
+/* Home Page */
+#home-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Page */
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tour Packages Page */
+.package-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Contact Page */
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Booking Page */
+.booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking-form input[type="text"], .booking-form input[type="email"], .booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.booking-form input[type="submit"] {
+    background-color: #1679AB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: #074173;
+}
+
+/* Additional styles for package cards */
+.package-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.package-card img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.package-card h3 {
+    margin-bottom: 10px;
+}
+
+.package-card p {
+    margin-bottom: 10px;
+}
+
+.package-card .details-btn {
+    background-color: #1679AB;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.package-card .details-btn:hover {
+    background-color: #074173;
+}
+
+.package-details {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.package-details h4 {
+    margin-bottom: 10px;
+}
+
+ /* Additional styles for home page */
+ .section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section p {
+    line-height: 1.6;
+}
